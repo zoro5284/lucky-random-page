@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunklucky_random"]=self["webpackChunklucky_random"]||[]).push([[966],{5966:function(n,e,t){t.r(e),t.d(e,{default:function(){return d}});var u=function(){var n=this,e=n._self._c;return e("div",[n._v(" test ")])},r=[],a={name:"Index",data(){return{}},methods:{}},l=a,s=t(1001),c=(0,s.Z)(l,u,r,!1,null,"6258a433",null),d=c.exports}}]);
-//# sourceMappingURL=966.418bce8f.js.map

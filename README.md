@@ -1,2 +1,0 @@
-# lucky-random
-super lucky
