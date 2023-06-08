@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 const { resolve } = require('path')
 module.exports = defineConfig({
-  publicPath: '/dist/lucky-random-page/',
+  publicPath: '/lucky-random-page/dist/',
   transpileDependencies: true,
   configureWebpack: {
     resolve: {
