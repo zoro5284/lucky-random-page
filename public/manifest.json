@@ -1,0 +1,23 @@
+
+{
+    "short_name": "发大财",
+    "name": "幸运随机数",
+    "icons": [  
+            {
+              "src": "./img/icons/money-192x192.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            },
+            {
+              "src": "./img/icons/money-512x512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+        
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#002140",
+    "theme_color": "#002140"
+}
+
