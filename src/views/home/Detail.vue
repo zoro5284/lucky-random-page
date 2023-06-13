@@ -25,9 +25,19 @@
                 {{ ball }}
             </span>
         </p>
+        <p class="mp8">
+            <span v-for="ball in choose3_1" :key="ball">
+                {{ ball }}
+            </span>
+        </p>
         <p class="mp18">选2</p>
         <p class="mp8">
             <span v-for="ball in choose2" :key="ball">
+                {{ ball }}
+            </span>
+        </p>
+        <p class="mp8">
+            <span v-for="ball in choose2_1" :key="ball">
                 {{ ball }}
             </span>
         </p>
@@ -48,7 +58,9 @@ export default {
       choose7: [],
       choose5: [],
       choose3: [],
-      choose2: []
+      choose2: [],
+      choose3_1: [],
+      choose2_1: []
     }
   },
   created () {
@@ -58,7 +70,9 @@ export default {
       this.choose5 = happyEight(6)
       this.choose7 = happyEight(7)
       this.choose3 = happyEight(3)
+      this.choose3_1 = happyEight(3)
       this.choose2 = happyEight(2)
+      this.choose2_1 = happyEight(2)
     } catch (error) {
       alert(error.message)
     }
