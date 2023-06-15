@@ -1,4 +1,5 @@
 <template>
+
  <div class="detail-page">
     <div class="happy-eight-wrap">
         <!-- <p class="mp18">选10</p>
@@ -25,11 +26,6 @@
                 {{ ball }}
             </span>
         </p>
-        <p class="mp8">
-            <span v-for="ball in choose3_1" :key="ball">
-                {{ ball }}
-            </span>
-        </p>
         <p class="mp18">选2</p>
         <p class="mp8">
             <span v-for="ball in choose2" :key="ball">
@@ -40,6 +36,11 @@
             <span v-for="ball in choose2_1" :key="ball">
                 {{ ball }}
             </span>
+        </p>
+        <p class="mp8">
+          <span v-for="ball in choose2_2" :key="ball">
+              {{ ball }}
+          </span>
         </p>
 
     </div>
@@ -60,7 +61,8 @@ export default {
       choose3: [],
       choose2: [],
       choose3_1: [],
-      choose2_1: []
+      choose2_1: [],
+      choose2_2: []
     }
   },
   created () {
@@ -73,6 +75,7 @@ export default {
       this.choose3_1 = happyEight(3)
       this.choose2 = happyEight(2)
       this.choose2_1 = happyEight(2)
+      this.choose2_2 = happyEight(2)
     } catch (error) {
       alert(error.message)
     }

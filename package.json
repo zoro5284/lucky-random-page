@@ -4,9 +4,10 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build; npm run cp",
+    "build": "vue-cli-service build; npm run cp; npm run publish",
     "lint": "vue-cli-service lint",
-    "cp": "cp -r ./dist/index.html ./index.html"
+    "cp": "cp -r ./dist/index.html ./index.html",
+    "publish": "git add .; git commit -m 策略调整; git push"
   },
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
