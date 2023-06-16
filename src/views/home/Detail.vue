@@ -20,27 +20,17 @@
                 {{ ball }}
             </span>
         </p>
-        <p class="mp18">选3</p>
+        <p class="mp18">选3 打两倍</p>
         <p class="mp8">
             <span v-for="ball in choose3" :key="ball">
                 {{ ball }}
             </span>
         </p>
-        <p class="mp18">选2</p>
+        <p class="mp18">选2 打两倍</p>
         <p class="mp8">
             <span v-for="ball in choose2" :key="ball">
                 {{ ball }}
             </span>
-        </p>
-        <p class="mp8">
-            <span v-for="ball in choose2_1" :key="ball">
-                {{ ball }}
-            </span>
-        </p>
-        <p class="mp8">
-          <span v-for="ball in choose2_2" :key="ball">
-              {{ ball }}
-          </span>
         </p>
 
     </div>
