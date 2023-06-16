@@ -90,6 +90,7 @@ export default {
 
 <style lang='less' scoped>
 .detail-page{
+    font-size: 18px;
     span{
         margin-left: 8px;
     }
