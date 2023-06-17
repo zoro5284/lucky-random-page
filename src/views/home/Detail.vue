@@ -2,12 +2,6 @@
 
  <div class="detail-page">
     <div class="happy-eight-wrap">
-        <!-- <p class="mp18">选10</p>
-        <p class="mp8">
-          <span v-for="ball in choose10" :key="ball">
-              {{ ball }}
-          </span>
-        </p> -->
         <p class="mp18">选5复式</p>
         <p class="mp8">
             <span v-for="ball in choose5" :key="ball">
@@ -49,10 +43,7 @@ export default {
       choose7: [],
       choose5: [],
       choose3: [],
-      choose2: [],
-      choose3_1: [],
-      choose2_1: [],
-      choose2_2: []
+      choose2: []
     }
   },
   created () {
@@ -62,10 +53,7 @@ export default {
       this.choose5 = happyEight(6)
       this.choose7 = happyEight(7)
       this.choose3 = happyEight(3)
-      this.choose3_1 = happyEight(3)
       this.choose2 = happyEight(2)
-      this.choose2_1 = happyEight(2)
-      this.choose2_2 = happyEight(2)
     } catch (error) {
       alert(error.message)
     }
@@ -80,7 +68,7 @@ export default {
 
 <style lang='less' scoped>
 .detail-page{
-    font-size: 18px;
+    font-size: 16px;
     span{
         margin-left: 8px;
     }
